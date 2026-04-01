@@ -24,28 +24,26 @@
                 <a href="#"class="nav__link">Contact Us</a>
                 <a href="#" class="nav__link login">Login</a>
                 <a href="#"class="nav__link--primary">Sign Up</a>
-                </div>
-                <button class="btn__menu" onclick="openMenu()">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn__menu--svg">
-              <line x1="3" y1="12" x2="21" y2="12"></line>
-              <line x1="3" y1="6" x2="21" y2="6"></line>
-              <line x1="3" y1="18" x2="21" y2="18"></line>
-            </svg>  
+                <button class="btn__menu btn__menu--close" onclick="openMenu()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="btn__menu--svg">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
                 </button>
+                </div>
             </nav>
-                <div class="menu">
-                    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line>
-   <line x1="6" y1="6" x2="18" y2="18"></line></svg> 
-                    </button>
-                    <div class="menu__links">
-                        <a href="#about" class="menu__link" onclick="closeMenu()">About</a>
-                        <a href="#blog" class="menu__link" onclick="closeMenu()">Blog</a>
-                        <a href="#pricing" class="menu__link" onclick="closeMenu()">Pricing</a>
-                        <a href="#contact__us" class="menu__link" onclick="closeMenu()">Contact Us</a>
-                        <a href="login" class="menu__link" onclick="closeMenu()">Login</a>
-                        <a href="#signup" class="menu__link--primary" onclick="closeMenu()">Sign Up</a>
-                    </div>
+                <div class="modal">
+                <div class="modal__links">
+                    <a class="modal__link">About</a>
+                    <a class="modal__link">Blog</a>
+                    <a class="modal__link">Pricing</a>
+                    <a class="modal__link">Contact</a>
+                    <a class="modal__link">Login</a>
+                    <a class="modal__link modal__primary">Sign Up</a>
+                </div>
                 </div>
                 <header>
                     <div class="container">
@@ -78,23 +76,25 @@
                     <div class="section__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </div>
                     <div class="features">
-                        
+                        <div class="services">
                            
-                           
+                           <div class="service">
                             <div class="feature">
                             <div class="feature__row">
                                 <figure class="feature__img--wrapper">
                                     <img src="assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" class="feature__img">
                                 </figure>
+                                <div class="service__description">
                                   <div class="feature__text">
                                     <h2 class="feature__title">Secure</h2>
                                     <p class="feature__para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
                                   </div>
+                                </div>  
                             </div>
                             </div>
-                           
+                           </div>  
 
-                           
+                           <div class="service">
                             <div class="feature">
                             <div class="feature__row">
                                 <figure class="feature__img--wrapper">
@@ -106,9 +106,9 @@
                                 </div>
                             </div>
                             </div>
-                            
+                           </div>  
 
-                           
+                           <div class="service">
                             <div class="feature">
                             <div class="feature__row">
                                 <figure class="feature__img--wrapper">
@@ -120,9 +120,9 @@
                                 </div>
                             </div>
                             </div>
+                           </div>  
                            
-                           
-                           
+                           <div class="service">
                             <div class="feature">
                             <div class="feature__row">
                                 <figure class="feature__img--wrapper">
@@ -134,9 +134,9 @@
                                 </div>
                             </div>
                             </div>
-                             
+                           </div>  
 
-                            
+                            <div class="service">
                             <div class="feature">
                             <div class="feature__row">
                                 <figure class="feature__img--wrapper">
@@ -148,11 +148,11 @@
                                 </div>
                             </div>
                             </div>
-                           
+                           </div> 
 
 
 
-                          
+                          <div class="service">
                             <div class="feature">
                             <div class="feature__row">
                                 <figure class="feature__img--wrapper">
@@ -164,9 +164,9 @@
                                 </div>
                             </div>
                             </div>
-                           
+                          </div>    
 
-                           
+                        </div>   
                     </div>
                 </div>
             </div>
@@ -252,7 +252,7 @@
                 <div class="row">
                     <div class="values__description">
                         <div class="section__tag">VALUES</div>
-                        <h2 class="section__title">We Always Abide by Our <span class="purple">Principles.</span></h2>
+                        <h2 class="section__title">We Always Abide by Our <span class="purple">Principles</span></h2>
                         <div class="section__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
                         <div class="values__list">
                             
@@ -423,8 +423,8 @@
                         <button class="start__button btn">Contact US</button>
                     </div>
                 </div>
-                </div>
             </div> 
+            </div>
             </div>
         </section>
      </main>
@@ -443,39 +443,38 @@
             <div class="footer__columns">
                 <div class="footer__column">
                     <div class="footer__column--title">MAIN</div>
-                    <a href="#" class="footer__column--link">Blog</a>
-                    <a href="#" class="footer__column--link">FAQs</a>
-                    <a href="#" class="footer__column--link">Support</a>
-                    <a href="#" class="footer__column--link">About Us</a>
+                    <a class="footer__column--link">Blog</a>
+                    <a class="footer__column--link">FAQs</a>
+                    <a class="footer__column--link">Support</a>
+                    <a class="footer__column--link">About Us</a>
                 </div>
                 <div class="footer__column">
                     <div class="footer__column--title">PRODUCT</div>
-                    <a href="#" class="footer__column--link">Log In</a>
-                    <a href="#" class="footer__column--link">Personal</a>
-                    <a href="#" class="footer__column--link">Business</a>
-                    <a href="#" class="footer__column--link">Team</a>
+                    <a class="footer__column--link">Log In</a>
+                    <a class="footer__column--link">Personal</a>
+                    <a class="footer__column--link">Business</a>
+                    <a class="footer__column--link">Team</a>
                 </div>
                 <div class="footer__column">
                     <div class="footer__column--title">PRESS</div>
-                    <a href="#" class="footer__column--link">Logos</a>
-                    <a href="#" class="footer__column--link">Logos</a>
-                    <a href="#" class="footer__column--link">Events</a>
-                    <a href="#" class="footer__column--link">Stories</a>
-                    <a href="#" class="footer__column--link">Office</a>
+                    <a class="footer__column--link">Logos</a>
+                    <a class="footer__column--link">Events</a>
+                    <a class="footer__column--link">Stories</a>
+                    <a class="footer__column--link">Office</a>
                 </div>
                 <div class="footer__column">
                     <div class="footer__column--title">TEAM</div>
-                    <a href="#" class="footer__column--link">Career</a>
-                    <a href="#" class="footer__column--link">Founders</a>
-                    <a href="#" class="footer__column--link">Culture</a>
-                    <a href="#" class="footer__column--link">Onboarding</a>
+                    <a class="footer__column--link">Career</a>
+                    <a class="footer__column--link">Founders</a>
+                    <a class="footer__column--link">Culture</a>
+                    <a class="footer__column--link">Onboarding</a>
                 </div>
                 <div class="footer__column">
                     <div class="footer__column--title">LEGAL</div>
-                    <a href="#"  class="footer__column--link">GDPR</a>
-                    <a href="#" class="footer__column--link">Privacy Policy</a>
-                    <a href="#" class="footer__column--link">Terms Of service</a>
-                    <a href="#" class="footer__column--link">Disclaimer</a>
+                    <a class="footer__column--link">GDPR</a>
+                    <a class="footer__column--link">Privacy Policy</a>
+                    <a class="footer__column--link">Terms Of service</a>
+                    <a class="footer__column--link">Disclaimer</a>
                 </div>
             </div>
             <div class="footer__divider"></div>
